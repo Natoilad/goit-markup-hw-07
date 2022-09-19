@@ -8,7 +8,7 @@
     padding: 40px;
 }
 
-.btn-close-modal {
+.modal__btn-close {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -23,11 +23,11 @@
     transform: fill var(--transition-dur-fun);
 }
 
-.modal-close-icon {
+.modal__close-icon {
     transition: fill var(--transition-dur-fun);
 
-    .btn-close-modal:hover &,
-    .btn-close-modal:focus & {
+    .modal__btn-close:hover &,
+    .modal__btn-close:focus & {
     fill: var(--brend-color);
     }
 }

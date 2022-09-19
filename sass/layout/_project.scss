@@ -1,4 +1,4 @@
-.project-card {
+.project-list__card {
     display: block;
     transition: box-shadow var(--transition-dur-fun);
 
@@ -23,12 +23,12 @@
     }
 }
 
-.project-list-item {
+.project-list__item {
     box-sizing: border-box;
     width: 370px;
 }
 
-.project-list-title {
+.project-list__title {
     @include font(18px, 700);
     line-height: 2;
     letter-spacing: 0.06em;
@@ -36,13 +36,13 @@
     color: var(--primery-text-color);
 }
 
-.project-item-paragraph {
+.project-item__paragraph {
     font-size: 16px;
     line-height: 1.87;
     color: var(--secondary-text-color);
 }
 
-.position-project {
+.project-list__position {
     position: relative;
     overflow: hidden;
 }
@@ -63,8 +63,8 @@
     transform: translateY(100%);
     transition: transform var(--transition-dur-fun);
 
-    .project-card:hover &,
-    .project-card:focus & {
+    .project-list__card:hover &,
+    .project-list__card:focus & {
     transform: translateY(0);
     }
 }

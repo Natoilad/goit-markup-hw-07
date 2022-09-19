@@ -122,7 +122,7 @@ body {
   border: 1px solid #ececec;
 }
 
-.part-logo-color {
+.logo__part-color {
   color: var(--brend-color);
 }
 
@@ -138,7 +138,7 @@ body {
   transition: color var(--transition-dur-fun);
 }
 
-.menu-nav-link {
+.menu-nav__link {
   display: inline-block;
   color: var(--primery-text-color);
   font-weight: 500;
@@ -209,7 +209,7 @@ body {
   margin: 0 auto;
 }
 
-.title-first {
+.hero__title {
   color: var(--color-text-dark-theme);
   font-weight: 900;
   font-size: 44px;
@@ -241,8 +241,8 @@ body {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.button-link:hover,
-.button-link:focus {
+.button-nav__link:hover,
+.button-nav__link:focus {
   background-color: var(--brend-color);
   color: var(--color-text-dark-theme);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -263,7 +263,7 @@ body {
   gap: 30px;
 }
 
-.technology-icon {
+.technology__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,16 +275,16 @@ body {
   height: 120px;
 }
 
-.technology-icon-pick {
+.technology__icon-pick {
   width: 70px;
   height: 70px;
 }
 
-.technology-list-item {
+.technology-list__item {
   width: 270px;
 }
 
-.technology-title {
+.technology__title {
   line-height: 1.14;
   text-transform: uppercase;
   font-size: 14px;
@@ -292,7 +292,7 @@ body {
   color: var(--primery-text-color);
 }
 
-.technology-paragraph {
+.technology__paragraph {
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
@@ -303,7 +303,7 @@ body {
   padding-top: 0;
 }
 
-.prezents-title {
+.prezents_title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -318,11 +318,11 @@ body {
   gap: 30px;
 }
 
-.position-prezents {
+.prezents__position {
   position: relative;
 }
 
-.prezents-title-text {
+.prezents_title-text {
   position: absolute;
   bottom: 0%;
   left: 0%;
@@ -351,7 +351,7 @@ body {
   gap: 30px;
 }
 
-.team-list-item {
+.team-list__item {
   box-sizing: content-box;
   width: 270px;
   background: #ffffff;
@@ -360,7 +360,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-title {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -372,7 +372,7 @@ body {
   padding: 30px 32px;
 }
 
-.team-title-name {
+.team__title-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -380,7 +380,7 @@ body {
   margin-bottom: 10px;
 }
 
-.team-paragraph {
+.team__paragraph {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -413,7 +413,7 @@ body {
   gap: 10px;
 }
 
-.social-link-icon {
+.social-link__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -423,8 +423,8 @@ body {
   transition: fill var(--transition-dur-fun);
 }
 
-.social-link:hover .social-link-icon,
-.social-link:focus .social-link-icon {
+.social-link:hover .social-link__icon,
+.social-link:focus .social-link__icon {
   fill: var(--color-text-dark-theme);
 }
 
@@ -482,13 +482,13 @@ body {
 
 /* project */
 
-.project-card {
+.project-list__card {
   display: block;
   transition: box-shadow var(--transition-dur-fun);
 }
 
-.project-card:hover,
-.project-card:focus {
+.project-list__card:hover,
+.project-list__card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -500,7 +500,7 @@ body {
   margin-bottom: 50px;
 }
 
-.button-link {
+.button-nav__link {
   font-family: var(--text-paragraph);
   background: #f5f4fa;
   padding: 6px 22px;
@@ -522,7 +522,7 @@ body {
   flex-wrap: wrap;
 }
 
-.project-list-item {
+.project-list__item {
   box-sizing: border-box;
   width: 370px;
 }
@@ -535,7 +535,7 @@ body {
   border-left: 1px solid #eeeeee;
 }
 
-.project-list-title {
+.project-list__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -544,12 +544,12 @@ body {
   color: var(--primery-text-color);
 }
 
-.project-item-paragraph {
+.project-item__paragraph {
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text-color);
 }
-.position-project {
+.project-list__position {
   position: relative;
   overflow: hidden;
 }
@@ -572,8 +572,8 @@ body {
   transition: transform var(--transition-dur-fun);
 }
 
-.project-card:hover .overlay,
-.project-card:focus .overlay {
+.project-list__card:hover .overlay,
+.project-list__card:focus .overlay {
   transform: translateY(0);
 }
 
@@ -623,7 +623,7 @@ body {
   transition: color var(--transition-dur-fun);
 }
 
-.address-item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -634,7 +634,7 @@ body {
   margin-right: 93px;
 }
 
-.follow-icon-title {
+.follow__icon-title {
   font-style: normal;
   font-weight: 700;
   line-height: 1.14;
@@ -648,7 +648,7 @@ body {
   transition: background-color var(--transition-dur-fun);
 }
 
-.footer-social-icon {
+.footer-social__icon {
   fill: #ffffff;
 }
 
@@ -664,7 +664,7 @@ body {
   width: 100%;
 }
 
-.mail-form-title {
+.mail-form__title {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -672,7 +672,7 @@ body {
   margin-bottom: 20px;
 }
 
-.enter-mail {
+.footer-form__enter-mail {
   display: inline-block;
   align-items: center;
   width: 358px;
@@ -688,14 +688,14 @@ body {
   transition: border-color var(--transition-dur-fun);
 }
 
-.enter-mail::placeholder {
+.footer-form__enter-mail::placeholder {
   font-size: 16px;
   line-height: 1.25;
   align-items: center;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.enter-mail:focus-within {
+.footer-form__enter-mail:focus-within {
   border-color: var(--brend-color);
 }
 
@@ -715,7 +715,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.send-icon {
+.send__icon {
   width: 100%;
   height: 100%;
   margin-left: 10px;
@@ -751,7 +751,7 @@ body {
   padding: 40px;
 }
 
-.btn-close-modal {
+.modal__btn-close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -767,11 +767,11 @@ body {
   transform: fill var(--transition-dur-fun);
 }
 
-.modal-close-icon {
+.modal__close-icon {
   transition: fill var(--transition-dur-fun);
 }
 
-.cta-title {
+.modal__cta-title {
   font-weight: 700;
   margin-bottom: 12px;
   text-align: center;
@@ -780,15 +780,15 @@ body {
   color: var(--primery-text-color);
 }
 
-.label-title {
+.modal__label-title {
   display: block;
   margin-bottom: 4px;
   color: var(--secondary-text-color);
 }
 
-.input-name,
-.input-phone,
-.input-mail {
+.modal__input-name,
+.modal__input-phone,
+.modal__input-mail {
   display: block;
   width: 100%;
   height: 40px;
@@ -800,19 +800,19 @@ body {
   transition: border-color var(--transition-dur-fun);
 }
 
-.input-name:focus-within,
-.input-phone:focus-within,
-.input-mail:focus-within {
+.modal__input-name:focus-within,
+.modal__input-phone:focus-within,
+.modal__input-mail:focus-within {
   border-color: var(--brend-color);
 }
 
-.input-position {
+.modal__input-position {
   display: block;
   position: relative;
   margin-bottom: 10px;
 }
 
-.icon-input {
+.modal__icon-input {
   position: absolute;
   top: 0;
   left: 0;
@@ -826,14 +826,14 @@ body {
   margin-bottom: 10px;
 }
 
-.input-coment {
+.modal__input-coment {
   width: 100%;
   height: 120px;
   padding: 16px;
   outline: none;
 }
 
-.input-coment:focus-within {
+.modal__input-coment:focus-within {
   border-color: var(--brend-color);
 }
 
@@ -845,7 +845,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-.input-coment::placeholder {
+.modal__input-coment::placeholder {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -874,11 +874,11 @@ textarea {
   line-height: 1.71;
   color: #757575;
 }
-.checkbox-link {
+.checkbox__link {
   color: var(--brend-color);
 }
 
-.checkbox-icon {
+.checkbox__icon {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -887,7 +887,7 @@ textarea {
   border-radius: 2px;
 }
 
-.checkbox:checked + .checkbox-icon {
+.checkbox:checked + .checkbox__icon {
   border-color: var(--brend-color);
   background-color: var(--brend-color);
   background-image: url(../images/icon-check.svg);
@@ -896,7 +896,7 @@ textarea {
   background-origin: border-box;
 }
 
-.modal-btn-send {
+.modal__btn-send {
   /* display: block; */
   width: 200px;
   height: 50px;
@@ -915,11 +915,11 @@ textarea {
   text-align: center;
 }
 
-.input-position:focus-within {
+.modal__input-position:focus-within {
   fill: var(--brend-color);
 }
 
-.btn-close-modal:hover .modal-close-icon,
-.btn-close-modal:focus .modal-close-icon {
+.modal__btn-close:hover .modal__close-icon,
+.modal__btn-close:focus .modal__close-icon {
   fill: var(--brend-color);
 }
